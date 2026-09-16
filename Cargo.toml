@@ -1,0 +1,14 @@
+[package]
+name = "rg-config"
+version = "0.1.0"
+authors.workspace = true
+description = "Configuration schema and loading for ridgeline"
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+
+[dependencies]
+rg-paths = { path = "../rg-paths" }
+serde.workspace = true
+thiserror.workspace = true
+toml.workspace = true
